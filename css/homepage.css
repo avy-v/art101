@@ -11,20 +11,24 @@ body {
   height: 100vh;
 }
 
-h1 {
-  font-size: 2.5em;
-  color: #ff7bac; /* pastel pink */
-  border-radius: 10px;
-  margin-bottom: 20px;
-}
-
 .container {
   text-align: center;
 }
 
 header {
+  position: fixed; /* Fixed position to keep it at the top */
+  top: 0; /* Align the header to the top of the viewport */
+  width: 100%; /* Make the header span the entire width */
+  z-index: 1000; /* Ensure the header appears on top of other content */
   background-color: #ffabca; /* pastel pink */
   padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #ff7bac; /* pastel pink */
   border-radius: 10px;
   margin-bottom: 20px;
 }
@@ -63,6 +67,7 @@ h2 {
 }
 
 .minor-secion {
+  margin-top: 80px; /* Adjust the margin to push content below the fixed header */
   background-color: #e8d7f9; /* other shades of pastel purple */
   padding: 20px;
   border-radius: 10px;
