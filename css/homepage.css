@@ -16,7 +16,7 @@ body {
 }
 
 header {
-  background-color: #ff7bac; /* pastel pink */
+  background-color: #ffabca; /* pastel pink */
   padding: 20px;
   border-radius: 10px;
   margin-bottom: 20px;
@@ -44,13 +44,14 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: #f797ba; /* pastel pink on hover */
+  background-color: #f87eaa; /* pastel pink on hover */
   color: #333; /* text color change on hover */
 }
 
 h1 {
   font-size: 2.5em;
   color: #ff7bac; /* pastel pink */
+  border-radius: 10px;
   margin-bottom: 20px;
 }
 
@@ -62,8 +63,9 @@ h1 {
 }
 
 .cat-photo {
+  border-radius: 10px;
   margin: 10px;
-  max-width: 500px;
+  max-width: 1000px;
 }
 
 
