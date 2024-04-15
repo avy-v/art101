@@ -6,9 +6,16 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
   height: 100vh;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #ff7bac; /* pastel pink */
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 .container {
@@ -48,10 +55,10 @@ nav ul li a:hover {
   color: #333; /* text color change on hover */
 }
 
-h1 {
-  font-size: 2.5em;
-  color: #ff7bac; /* pastel pink */
-  border-radius: 10px;
+
+h2 {
+  font-size: 1.5em;
+  color: #ff98be; /* lighter shade of pastel pink */
   margin-bottom: 20px;
 }
 
