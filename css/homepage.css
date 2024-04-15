@@ -11,10 +11,6 @@ body {
   height: 100vh;
 }
 
-.container {
-  text-align: center;
-}
-
 header {
   position: fixed; /* Fixed position to keep it at the top */
   top: 0; /* Align the header to the top of the viewport */
