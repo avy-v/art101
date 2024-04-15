@@ -1,6 +1,71 @@
 /* this css file will only style the homepage of our site */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0e6f7; /* pastel purple */
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #ff7bac; /* pastel pink */
+  margin-bottom: 20px;
+}
+
+.minor-secion {
+  background-color: #e8d7f9; /* other shades of pastel purple */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
 
 .cat-photo {
   margin: 10px;
   max-width: 500px;
 }
+
+/* Existing styles */
+
+/* New styles for the navigation menu */
+header {
+  background-color: #ff7bac; /* pastel pink */
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff; /* white text */
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 20px; /* rounded corners */
+  background-color: #e8d7f9; /* other shades of pastel purple */
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #f797ba; /* pastel pink on hover */
+  color: #333; /* text color change on hover */
+}
+
