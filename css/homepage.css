@@ -1,4 +1,3 @@
-/* this css file will only style the homepage of our site */
 body {
   font-family: Arial, sans-serif;
   background-color: #f0e6f7; /* pastel purple */
@@ -11,16 +10,8 @@ body {
   height: 100vh;
 }
 
-header {
-  position: fixed; /* Fixed position to keep it at the top */
-  top: 0; /* Align the header to the top of the viewport */
-  width: 100%; /* Make the header span the entire width */
-  z-index: 1000; /* Ensure the header appears on top of other content */
-  background-color: #ffabca; /* pastel pink */
-  padding: 20px;
-  border-radius: 10px;
-  margin-bottom: 20px;
-  margin-left: 0;
+.container {
+  text-align: center;
 }
 
 h1 {
@@ -28,33 +19,6 @@ h1 {
   color: #ff7bac; /* pastel pink */
   margin-bottom: 20px;
 }
-
-nav ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-nav ul li {
-  display: inline;
-  margin-right: 20px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #fff; /* white text */
-  font-weight: bold;
-  padding: 10px 20px;
-  border-radius: 20px; /* rounded corners */
-  background-color: #e8d7f9; /* other shades of pastel purple */
-  transition: background-color 0.3s;
-}
-
-nav ul li a:hover {
-  background-color: #f87eaa; /* pastel pink on hover */
-  color: #333; /* text color change on hover */
-}
-
 
 h2 {
   font-size: 1.5em;
