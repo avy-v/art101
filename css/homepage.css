@@ -17,7 +17,6 @@ h1 {
 }
 
 .minor-secion {
-  margin-top: 80px; /* Adjust the margin to push content below the fixed header */
   background-color: #e8d7f9; /* other shades of pastel purple */
   padding: 20px;
   border-radius: 10px;
