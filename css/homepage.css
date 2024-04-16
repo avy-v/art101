@@ -22,6 +22,10 @@ header {
   margin-left: 0;
 }
 
+.content {
+  margin-top: 80px; /* Adjust the margin to push content below the fixed header */
+}
+
 .container {
   text-align: center;
   width: 1000px; /* Example width */
