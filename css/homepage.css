@@ -12,6 +12,9 @@ body {
 
 .container {
   text-align: center;
+  width: 600px; /* Example width */
+  height: 400px; /* Example height */
+  overflow: scroll; /* Apply overflow scroll */
 }
 
 h1 {
