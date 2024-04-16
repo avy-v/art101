@@ -9,6 +9,32 @@ header {
   border-radius: 10px;
 }
 
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff; /* white text */
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 20px; /* rounded corners */
+  background-color: #e8d7f9; /* other shades of pastel purple */
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #f87eaa; /* pastel pink on hover */
+  color: #333; /* text color change on hover */
+}
+
 body {
   font-family: Arial, sans-serif;
   background-color: #dbb1fa; /* pastel purple */
