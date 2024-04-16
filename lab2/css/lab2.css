@@ -1,4 +1,41 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
+header {
+    position: fixed; /* Fixed position to keep it at the top */
+    top: 0; /* Align the header to the top of the viewport */
+    width: 100%; /* Make the header span the entire width */
+    text-align: center; /* Center align the text within the header */
+    z-index: 1000; /* Ensure the header appears on top of other content */
+    background-color: #ffabcb; /* pastel pink */
+    padding: 20px;
+    border-radius: 10px;
+}
+  
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+  
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+  
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* white text */
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px; /* rounded corners */
+    background-color: #dab9fa; /* other shades of pastel purple */
+    transition: background-color 0.3s;
+}
+  
+nav ul li a:hover {
+    background-color: #f87eaa; /* pastel pink on hover */
+    color: #333; /* text color change on hover */
+}
+  
 body {
   font-family: Arial, sans-serif;
   background-color: #f0e6f7; /* pastel purple */
@@ -12,26 +49,38 @@ body {
 }
 
 .container {
-  text-align: center;
-}
+    /*text-align: center;*/
+     /*width: 1000px; /* Example width */
+     /*height: 800px; /* Example height */
+     /*overflow: scroll; /* Apply overflow scroll */
+     padding: 20px;
+     border-radius: 12px;
+     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}   
 
+.content {
+    margin-top: 140px; /* Adjust the margin to push content below the fixed header */
+    justify-content: center;
+    align-items: center;
+}
+  
 h1 {
-  font-size: 2.5em;
-  color: #ff7bac; /* pastel pink */
-  margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #ffffff; /* pastel pink #ff7bac */
+    margin-bottom: 20px;
 }
-
+  
 h2 {
-  font-size: 1.5em;
-  color: #ff98be; /* lighter shade of pastel pink */
-  margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #ffffff; /* lighter shade of pastel pink */
+    margin-bottom: 20px;
 }
 
 .minor-section {
-  background-color: #e8d7f9; /* other shades of pastel purple */
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #fdb3fa; /* other shades of pastel pink */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 /*.minor-section {
