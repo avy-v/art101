@@ -33,8 +33,8 @@ body {
 
 .content {
   margin-top: 80px; /* Adjust the margin to push content below the fixed header */
-  /*justify-content: center;
-  align-items: center;*/
+  justify-content: center;
+  align-items: center;
   width: 80%; /* Adjust the width as needed */
   margin: 0 auto; /* Center the container horizontally */
 }
