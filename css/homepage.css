@@ -15,7 +15,7 @@ header {
   top: 0; /* Align the header to the top of the viewport */
   width: 100%; /* Make the header span the entire width */
   z-index: 1000; /* Ensure the header appears on top of other content */
-  background-color: #ff7bac; /* pastel pink */
+  background-color: #ffabcb; /* pastel pink */
   padding: 20px;
   border-radius: 10px;
 }
@@ -44,6 +44,7 @@ h2 {
 }
 
 .minor-section {
+  margin-top: 80px;
   background-color: #e8d7f9; /* other shades of pastel purple */
   padding: 20px;
   border-radius: 10px;
