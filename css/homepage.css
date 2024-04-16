@@ -6,6 +6,7 @@ header {
   background-color: #ffabcb; /* pastel pink */
   padding: 20px;
   border-radius: 10px;
+  text-align: center; /* Center align the text within the header */
 }
 
 body {
