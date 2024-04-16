@@ -27,11 +27,13 @@ nav ul li a {
   padding: 10px 20px;
   border-radius: 20px; /* rounded corners */
   background-color: #dab9fa; /* other shades of pastel purple */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /*gives boarders slight shadow*/
   transition: background-color 0.3s;
 }
 
 nav ul li a:hover {
   background-color: #f87eaa; /* pastel pink on hover */
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.541); /*gives boarders slight glow*/
   color: #333; /* text color change on hover */
 }
 
