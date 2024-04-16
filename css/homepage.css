@@ -58,7 +58,7 @@ body {
 }
 
 .content {
-  margin-top: 160px; /* Adjust the margin to push content below the fixed header */
+  margin-top: 120px; /* Adjust the margin to push content below the fixed header */
   justify-content: center;
   align-items: center;
 }
