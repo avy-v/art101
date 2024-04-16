@@ -12,8 +12,8 @@ body {
 
 .container {
   text-align: center;
-  width: 1200px; /* Example width */
-  height: 1000px; /* Example height */
+  width: 1000px; /* Example width */
+  height: 800px; /* Example height */
   overflow: scroll; /* Apply overflow scroll */
 }
 
