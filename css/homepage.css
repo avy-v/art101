@@ -10,6 +10,18 @@ body {
   height: 100vh;
 }
 
+header {
+  position: fixed; /* Fixed position to keep it at the top */
+  top: 0; /* Align the header to the top of the viewport */
+  width: 100%; /* Make the header span the entire width */
+  z-index: 1000; /* Ensure the header appears on top of other content */
+  background-color: #ffabca; /* pastel pink */
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-left: 0;
+}
+
 .container {
   text-align: center;
   width: 1000px; /* Example width */
