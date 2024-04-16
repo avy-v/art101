@@ -26,7 +26,7 @@ nav ul li a {
   font-weight: bold;
   padding: 10px 20px;
   border-radius: 20px; /* rounded corners */
-  background-color: #e8d7f9; /* other shades of pastel purple */
+  background-color: #dab9fa; /* other shades of pastel purple */
   transition: background-color 0.3s;
 }
 
@@ -58,7 +58,7 @@ body {
 }
 
 .content {
-  margin-top: 128px; /* Adjust the margin to push content below the fixed header */
+  margin-top: 160px; /* Adjust the margin to push content below the fixed header */
   justify-content: center;
   align-items: center;
 }
