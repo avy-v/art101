@@ -7,7 +7,7 @@ header {
     z-index: 1000; /* Ensure the header appears on top of other content */
     background-color: #ffabcb; /* pastel pink */
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 10px; /*gives round boarders*/
 }
   
 nav ul {
@@ -28,18 +28,20 @@ nav ul li a {
     padding: 10px 20px;
     border-radius: 20px; /* rounded corners */
     background-color: #dab9fa; /* other shades of pastel purple */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /*gives boarders slight shadow*/
     transition: background-color 0.3s;
 }
   
 nav ul li a:hover {
     background-color: #f87eaa; /* pastel pink on hover */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.541); /*gives boarders slight glow*/
     color: #333; /* text color change on hover */
 }
   
 body {
   font-family: Arial, sans-serif;
   background-color: #dbb1fa; /* pastel purple */
-  color: #333;
+  color: #333; /*text color*/
   margin: 0;
   padding: 0;
   display: flex;
@@ -48,12 +50,12 @@ body {
 
 .container {
     /*text-align: center;*/
-     /*width: 1000px; /* Example width */
-     /*height: 800px; /* Example height */
-     /*overflow: scroll; /* Apply overflow scroll */
-     padding: 20px;
-     border-radius: 12px;
-     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    /*width: 1000px; /*  width */
+    /*height: 800px; /* height */
+    /*overflow: scroll; /* Apply overflow scroll */
+    padding: 20px;
+    border-radius: 12px;/*gives round boarders*/
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /*gives boarde slight shadow*/
 }   
 
 .content {
@@ -77,8 +79,8 @@ h2 {
 .minor-section {
     background-color: #fdb3fa; /* other shades of pastel pink */
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /*gives round boarder*/
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /*gives boarders slight shadow*/
 }
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 /*.minor-section {
