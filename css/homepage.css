@@ -25,10 +25,13 @@ header {
 }
 
 .container {
-  text-align: center;
-  width: 1000px; /* Example width */
-  height: 800px; /* Example height */
-  overflow: scroll; /* Apply overflow scroll */
+ /*text-align: center;*/
+  /*width: 1000px; /* Example width */
+  /*height: 800px; /* Example height */
+  /*overflow: scroll; /* Apply overflow scroll */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
@@ -44,7 +47,6 @@ h2 {
 }
 
 .minor-section {
-  margin-top: 80px;
   background-color: #e8d7f9; /* other shades of pastel purple */
   padding: 20px;
   border-radius: 10px;
