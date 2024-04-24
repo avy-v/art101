@@ -47,6 +47,8 @@ body {
   /*justify-content: left;
   align-items: left;*/
   height: 100vh;
+  overscroll-behavior: none;
+  overflow: hidden;
 }
 
 .container {
