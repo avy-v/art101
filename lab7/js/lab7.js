@@ -19,3 +19,10 @@ function main() {
 
 // let's get this party started
 main();
+
+function getNameAndSort() {
+	const userName = window.promt("what is your name?");
+  return userName.split('').sort('').join('');
+}
+
+console.log(getNameAndSort());
