@@ -1,7 +1,40 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0e6f7; /* pastel purple */
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #ff7bac; /* pastel pink */
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #ff98be; /* lighter shade of pastel pink */
+  margin-bottom: 20px;
+}
+
 .minor-section {
+  background-color: #e8d7f9; /* other shades of pastel purple */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+/*.minor-section {
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #888;
