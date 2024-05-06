@@ -45,5 +45,5 @@ function sortUserName() {
 }
 
 //
-document.writeln("Oh hey, guess what. You know that name you gave me or your name ig. Yeah i fixed it.",
+document.writeln("Oh hey, guess what. You know that name you gave me or your old name ig. Yeah I fixed it. here it is",
   sortUserName(), "</br>");
