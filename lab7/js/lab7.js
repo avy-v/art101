@@ -20,13 +20,6 @@ function main() {
 // let's get this party started
 main();
 
-//function getNameAndSort() {
-	//const userName = window.promt("what is your name?");
-  //return userName.split('').sort('').join('');
-//}
-
-//console.log(getNameAndSort());
-
 function sortUserName() {
   //prompt to ask for user's name
   var userName = window.prompt("𝐻𝒾. 𝒫𝓁𝑒𝒶𝓈𝑒 𝓉𝑒𝓁𝓁 𝓂𝑒 𝓎𝑜𝓊𝓇 𝓃𝒶𝓂𝑒 𝓈𝑜 𝒸𝒶𝓃 𝒻𝒾𝓍 𝒾𝓉 𝓁𝑜𝓁.");
