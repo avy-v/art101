@@ -43,7 +43,7 @@ console.log("cool, cool... uhhh.... should we double it or take it lol(nervous l
  // Your map results data
  var mapResults = "Your map results here";
  function test() {
-  console.log("testing one two", wegotanarraylol)
+  "testing one two", wegotanarraylol
 
  }
 
