@@ -32,7 +32,6 @@ var result = wegotanarraylol.map(wompwomp);
 //shold be [true, true, false, true, true, false, true, true, false]
 console.log("let's go and see if this array is even. The results are in and they are: ", result);
 console.log("kinda reminds me of two truths and a lie lol");
-array.map(wompwomp);
 
 var result = wegotanarraylol.map(function(x) {
   return x*2;
