@@ -22,7 +22,7 @@ main();
 
 function wompwomp(x) {
   //var results = x/2 
-  return (x/2);
+  return (x%2==0);
 }
 
 wegotanarraylol = [2016, 28, 33, 10, 21, 98, 1984, 1917, ];
@@ -42,6 +42,10 @@ console.log("cool, cool... uhhh.... should we double it or take it lol(nervous l
 
  // Your map results data
  var mapResults = "Your map results here";
+ function test() {
+  console.log("testing one two", wegotanarraylol)
+
+ }
 
  // Use jQuery to select the element by its ID and set the HTML content
- $("#output").html(mapResults);
+ $("#output").html(mapResults,test);
