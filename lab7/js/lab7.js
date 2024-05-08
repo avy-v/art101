@@ -1,6 +1,6 @@
 // index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Author: Avy Vargas
+// Date: 05/01/24
 
 // Constants
 
