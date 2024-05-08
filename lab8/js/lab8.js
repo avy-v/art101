@@ -38,14 +38,10 @@ var result = wegotanarraylol.map(function(x) {
 })
 //should be[]
 console.log("Okii now lets see how this cool array looks like if we double it ", result);
-console.log("cool, cool... uhhh.... should we double it or take it lol(nervous laugh)")
+console.log("cool, cool... uhhh.... should we double it or take it lol(nervous laugh)");
 
  // Your map results data
- var mapResults = "Your map results here";
- function test() {
-  "testing one two", wegotanarraylol
-
- }
-
+ var mapResults = "Your map results here", wegotanarraylol;
+ 
  // Use jQuery to select the element by its ID and set the HTML content
- $("#output").html(mapResults,test);
+ $("#output").html(mapResults,);
