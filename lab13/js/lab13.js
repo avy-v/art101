@@ -24,7 +24,9 @@ for (let i = 1; i <= 200; i++) {
   if (i % 7 == 0) {
     str += "𝐵𝑜𝑜𝓂 ";
   }
-  
+  if (i == 7) {
+    str += "𝐵𝒶𝓃𝑔 ";
+  }
   if (str == "") {
     console.log(i);
     $("#output").append("<p class='num'>" + i);
