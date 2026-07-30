@@ -48,7 +48,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  overflow:hidden;
+  /*overflow:hidden;
   /*justify-content: left;
   align-items: left;*/
   /*height: 100vh;*/
