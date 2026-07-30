@@ -117,7 +117,7 @@ function setupCanvas() {
 const card = document.getElementById("nowPlaying");
 const audio = document.getElementById("audioPlayer");
 const playButton = document.getElementById("playButton");
-const progressBar = document.getElementById("progresBar");
+const progressBar = document.getElementById("progressBar");
 const currentTime = document.getElementById("currentTime");
 const duration = document.getElementById("duration");
 
@@ -135,7 +135,7 @@ function showNotification(){
                 opacity:0
             },
             {
-                transform:"tranlateX(15px)",
+                transform:"translateX(15px)",
                 opacity:1,
                 offset:.8
             },
@@ -161,6 +161,10 @@ function hideNotification() {
 
         [
             {
+                transform:"translate(0)",
+                opacity:1
+            }
+            {
                 transform:"translateX(-500px)",
                 opacity:0
             }
@@ -168,7 +172,7 @@ function hideNotification() {
         
         {
             duration:700,
-            easing:"ease-in"
+            easing:"ease-in",
             fill:"forwards"
         }
     );
@@ -179,7 +183,7 @@ audio.addEventListener("timeupdate", () => {
         (audio.currentTime / audio.duration) * 100;
     progressBar.style.width = percent + "%";
     currentTime.textContent = formatTime(audio.currentTime);
-    duration.textContext = formatTime(audio.duration);
+    duration.textContent = formatTime(audio.duration);
 });
 
 function formatTime(seconds) {
