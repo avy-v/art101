@@ -163,7 +163,8 @@ function hideNotification() {
             {
                 transform:"translate(0)",
                 opacity:1
-            }
+            },
+
             {
                 transform:"translateX(-500px)",
                 opacity:0
