@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<canvas>
+
 <head>
 	<!-- This title is used for tabs and bookmarks -->
 	<title>𝒜𝓋𝓎'𝓈 𝐻𝑜𝓂𝑒𝓅𝒶𝑔𝑒</title>
@@ -19,8 +19,12 @@
 	<script type="text/javascript" src="js/site.js" DEFER></script>
 </head>
 <body>
+	<canvas></canvas>
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
-	
+	<!--test button-->
+	<button id="playButton">
+		Play Song
+	</button>
 	<div class="container">
 		
 		<header>
@@ -40,13 +44,10 @@
 		<!--hidden audio player-->
 		<audio id="audioPlayer">
 			<source
-				src=music/SashaAlexSloan-HouseWithNoMirrors.mp3
+				src=music/sashaalexsloan-housewithnomirrors.mp3
 				type="audio/mpeg">
 		</audio>
-		<!--test button-->
-		<button id="playButton">
-			Play Song
-		</button>
+		
 
 		<!--notification-->
 		<div id="nowPlaying">
@@ -86,8 +87,6 @@
 
     	</div>
 
-		<script src="js/site.js"></script>
-
 </div>
 		<div class="content">	
 			<div class="minor-section">
@@ -110,5 +109,5 @@
 		</div>
 	</div>
 </body>
-</canvas>
+
 </html>
