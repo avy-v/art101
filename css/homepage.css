@@ -46,6 +46,8 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
+  justify-content:center;
+  align-items:center;
   /*overflow:hidden;
   /*justify-content: left;
   align-items: left;*/
@@ -104,8 +106,8 @@ h2 {
 
 #nowPlaying{
   position: 9999;
-  bottom:20px;
-  left:20px;
+  bottom:25px;
+  left:25px;
   width:420px;
   display:flex;
   align-items:center;
@@ -118,6 +120,15 @@ h2 {
   box-shadow:0 20px 40px rgba(0,0,0,.4);
   transform:translateX(-500px);
   opacity:0;
+  transition:.4s ease;
+}
+
+#nowPlaying.show{
+
+    transform:translateX(0);
+
+    opacity:1;
+
 }
 
 #cover{

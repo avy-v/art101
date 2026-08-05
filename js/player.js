@@ -50,6 +50,15 @@ function showNotification(){
 
 }
 
+//function showNotification(song){
+//    const card = document.getElementById("nowPlaying");
+//    card.classList.add("show");
+//    clearTimeout(card.hideTimer);
+//    card.hideTimer = setTimeout(() => {
+//        card.classList.remove("show");
+//    }, 5000);
+//}
+
 function hideNotification() {
     card.animate(
 
@@ -100,7 +109,7 @@ function loadSong(song){
     title.textContent = song.title;
     artist.textContent = song.artist;
     audio.load();
-    //showNotification(song);
+    showNotification(song);
 }
 
 function playSong(){
