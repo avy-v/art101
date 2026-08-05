@@ -20,7 +20,7 @@ function loadSong(song){
     title.textContent = song.title;
     artist.textContent = song.artist;
     audio.load();
-    showNotification(song);
+    //showNotification(song);
 }
 
 function playSong(){
@@ -54,6 +54,12 @@ const settings = {
     repeat:false,
     volume:0.5,
 };
+
+function startMusic() {
+
+    playSong();
+
+}
 
 document.addEventListener("click", startMusic, {
 

@@ -121,11 +121,11 @@ const progressBar = document.getElementById("progressBar");
 const currentTime = document.getElementById("currentTime");
 const duration = document.getElementById("duration");
 
-playButton.addEventListener("click", () => {
-    audio.play();
-    showNotification();
+//playButton.addEventListener("click", () => {
+//    audio.play();
+//    showNotification();
 
-});
+//});
 
 function showNotification(){
     card.animate(
