@@ -9,7 +9,8 @@ header {
   background-color: rgba(25, 25, 25, 0.26); /* pastel pink */
   padding: 20px;
   border-radius: 10px;
-  justify-content: center;
+  margin:0 auto;
+  /*justify-content: center;*/
   align-items: center;
 }
 
