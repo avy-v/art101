@@ -6,9 +6,11 @@ header {
   width: 100%; /* Make the header span the entire width */
   text-align: center; /* Center align the text within the header */
   z-index: 1000; /* Ensure the header appears on top of other content */
-  background-color: #ffabcb; /* pastel pink */
+  background-color: rgba(25, 25, 25, 0.26); /* pastel pink */
   padding: 20px;
   border-radius: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 nav ul {
@@ -85,7 +87,7 @@ h2 {
 }
 
 .minor-section {
-  background-color: #fdb3fa; /* other shades of pastel pink */
+  background-color: rgba(236, 54, 161, 0.26); /* other shades of pastel pink */
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
