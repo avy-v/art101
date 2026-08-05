@@ -1,4 +1,15 @@
 //all music logic
+
+const audio = document.getElementById("audioPlayer");
+const cover = document.getElementById("cover");
+const title = document.getElementById("title");
+const artist = document.getElementById("artist");
+const progressBar = document.getElementById("progressBar");
+const currentTime = document.getElementById("currentTime");
+const duration = document.getElementById("duration");
+
+let isPlaying = false;
+
 let currentSongIndex = 0;
 
 let currentSong = playlist[currentSongIndex];
@@ -6,16 +17,20 @@ let currentSong = playlist[currentSongIndex];
 function loadSong(song){
     audio.src = song.audio;
     cover.src = song.cover;
-    title.textContext = song.title;
-    artist.textContext = song.artist;
+    title.textContent = song.title;
+    artist.textContent = song.artist;
+    audio.load();
+    showNotification(song);
 }
 
 function playSong(){
     audio.play();
+    isPlaying = true;
 }
 
 function pauseSong(){
     audio.pause();
+    isPlaying = false;
 }
 
 function nextSong(){
@@ -28,9 +43,9 @@ function nextSong(){
     playSong();
 }
 
-loadSong(currentSong);
+//loadSong(currentSong);
 
-showNotification(currentSong);
+//showNotification(currentSong);
 
 audio.addEventListener("ended", ()=>{
     nextSong();
