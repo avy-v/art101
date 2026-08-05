@@ -22,6 +22,7 @@ const playButton = document.getElementById("playButton");
 //});
 
 function showNotification(){
+    card.getAnimations().forEach(animation => animation.cancel());
     card.animate(
         [
             {
@@ -132,7 +133,7 @@ function nextSong(){
     playSong();
 }
 
-loadSong(currentSong);
+
 
 audio.addEventListener("ended", ()=>{
     nextSong();
@@ -146,6 +147,7 @@ const settings = {
 
 function startMusic() {
 
+    loadSong(currentSong);
     playSong();
 
 }
