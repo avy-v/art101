@@ -9,8 +9,8 @@ header {
   background-color: rgba(25, 25, 25, 0.26); /* pastel pink */
   padding: 20px;
   border-radius: 10px;
-  margin:0 auto;
-  /*justify-content: center;*/
+  /*margin:0 auto;
+  justify-content: center;*/
   align-items: center;
 }
 
@@ -31,7 +31,7 @@ nav ul li a {
   font-weight: bold;
   padding: 10px 20px;
   border-radius: 20px; /* rounded corners */
-  background-color: #dab9fa; /* other shades of pastel purple */
+  background-color: rgba(224, 17, 138, 0.26); /* other shades of pastel purple */
   box-shadow: 0 0 36px rgba(0, 0, 0, 0.1); /*gives boarders slight shadow*/
   transition: background-color 0.3s;
 }
@@ -66,6 +66,7 @@ body {
   border-radius: 12px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   /*position:relative;*/
+  margin:0 auto;
   z-index:1;
 }
 
