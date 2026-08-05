@@ -46,7 +46,7 @@ function showNotification(){
         }
     );
 
-    setTimeout(hideNotification,10000);
+    setTimeout(hideNotification,20000);
 
 }
 
