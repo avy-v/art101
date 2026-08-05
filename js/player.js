@@ -43,9 +43,7 @@ function nextSong(){
     playSong();
 }
 
-//loadSong(currentSong);
-
-//showNotification(currentSong);
+loadSong(currentSong);
 
 audio.addEventListener("ended", ()=>{
     nextSong();
@@ -56,3 +54,9 @@ const settings = {
     repeat:false,
     volume:0.5,
 };
+
+document.addEventListener("click", startMusic, {
+
+    once: true
+
+});
